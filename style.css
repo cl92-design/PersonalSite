@@ -245,7 +245,7 @@ nav li:nth-of-type(4) a {
 section#home {
   background-image: url("https://raw.githubusercontent.com/cl92-design/personalsite/main/Cover.png");
   /* https://raw.githubusercontent.com/cl92-design/personalsite/main/Cover.png */
-  background-position: center;
+  background-size: fit;
 }
 
 section#about {
@@ -265,23 +265,6 @@ section#contact {
 }
 
 /* --- Link Styling --- */
-
-/* Home */
-section#home a {
-  z-index: 2;
-  position: absolute;
-  top: 1rem;
-  right: 55rem;
-  display: inline;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2.5rem;
-  font-family: "Dr Sugiyama", cursive;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: var(--primaryColor);
-  padding: 0.45rem;
-  border: dashed var(--primaryColor);
-}
 
 /* Nav */
 nav li a {
@@ -329,7 +312,7 @@ nav li a:hover::before {
 
 .prj-links:hover {
   color: var(--Color1);
-  font-size: 2rem;
+  transform: scale(2);
 }
 
 /* Projects*/
@@ -340,4 +323,18 @@ nav li a:hover::before {
 .ctc-links:hover {
   color: var(--primaryColor);
   transform: scale(2);
+}
+
+/* Media query */
+
+@media (max-width: 770px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 65%;
+  }
 }
