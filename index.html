@@ -4,9 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CL92 Design // Responsive, Functional Web Deisgn</title>
+
+    <!-- Styling -->
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/fad5e187fa.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <!-- Menu overlay -->
     <div class="overlay overlay-slide-left" id="overlay">
@@ -33,18 +46,136 @@
 
     <!-- Sections -->
     <section id="home">
-      <a href="" target="_blank">CL92 Design</a>
+      <a href=""> Homepage </a>
+      <div class="container"></div>
     </section>
+
     <section id="about">
-      <h1>Learn More About Me</h1>
-      <p>
-I endeavor to create great websites for clients that are beautiful and responsive in design while having excellent functionalities. From the first conceptualisation of your brand or ideas, to implementation and lifelong maintenance, I will be with you all the way
-      </p>
+      <div class="container">
+        <h1>Learn More About Me</h1>
+        <p>
+          I endeavor to create great websites for clients that are beautiful and
+          responsive in design while having excellent functionalities. From the
+          first conceptualisation of your brand or ideas, to implementation of
+          the build and lifelong maintenance, I will be with you all the way.
+        </p>
+      </div>
     </section>
-    <section id="skills"><h1>These Are My Strengths</h1></section>
-    <section id="projects"><h1>These Are My Results</h1></section>
-    <section id="contact"><h1>Available Anytime</h1></section>
+
+    <section id="skills">
+      <div class="container">
+        <h1>These Are My Strengths</h1>
+        <div class="row">
+          <div class="col">
+            <i class="fas fa-code fa-lg"></i>
+            <h2>Handcrafted codes</h2>
+            <p>
+              Differentiate your business and it's personality from the generic
+              and samey looking websites. Having a unique website not only
+              generate more traffic, but it tells your customers that you care
+              about the little details.
+            </p>
+          </div>
+          <div class="col">
+            <i class="fas fa-pencil-ruler fa-lg"></i>
+            <h2>Design-oriented</h2>
+            <p>
+              Creativity is the act of turning new and imaginative ideas into
+              reality. Creativity is characterised by the ability to perceive
+              the world in new ways, to find hidden patterns, to make
+              connections between seemingly unrelated phenomena, and to generate
+              solutions.
+            </p>
+          </div>
+          <div class="col">
+            <i class="fab fa-react fa-lg"></i>
+            <h2>Latest Technology</h2>
+            <p>
+              The latest frameworks are efficient approaches for building rich
+              and interactive web applications. Utilising them means that
+              websites can still run smoothly, even years after it was built.
+              React, Bootstrap and Node.js will future-proof your websites so it
+              will be as long lasting as your business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h1>These Are My Projects</h1>
+        <div class="row">
+          <span> > JavaScript < </span>
+          <div class="col">
+            <a
+              class="prj-links"
+              href="https://cl92-design.github.io/QuoteGenerator/"
+              >Quote Generator</a
+            >
+          </div>
+          <div class="col">
+            <a
+              class="prj-links"
+              href="https://cl92-design.github.io/InfiniteScroll/"
+              >Infinite Scroll</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <span> > React < </span>
+          <div class="col">
+          <a
+            class="prj-links"
+            href="https://cl92-design.github.io/RoboFriends/"
+            >Search a Robot</a
+          >
+        </div>
+        <div class="col">
+          <a
+            class="prj-links"
+            href="https://99ruk.csb.app/"
+            >Notetaking App</a
+          >
+        </div>
+        <div class="row">
+          <span> More to Come... </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1>Hire me!</h1>
+        <div class="row">
+          <div class="col">
+            <a class="ctc-links"
+            href="cl92design@gmail.com"
+            ><i class="far fa-envelope fa-3x"></i></a
+          >  
+          </div>
+          <div class ="col">
+            <a class="ctc-links"
+            href="#">
+            <i class="fas fa-phone-volume fa-3x"></i></a>
+          </div>
+          <div class ="col">
+            <a class="ctc-links"
+            href="CV">
+            <i class="fas fa-file fa-3x"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Script -->
     <script src="script.js"></script>
   </body>
+
+  <!-- scripts -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"
+  ></script>
 </html>
